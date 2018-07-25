@@ -21,9 +21,7 @@ def least_coins(cents)
   elsif nickels != 0 
     coins [:nickels] = nickels 
     cents = cents - nickels * 5 
-    
-  
- 
+  end 
 end 
 
 least_coins
