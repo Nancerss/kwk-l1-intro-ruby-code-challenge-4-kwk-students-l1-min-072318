@@ -25,7 +25,7 @@ def least_coins(cents)
     coins [:nickels] = nickels 
     cents = cents - nickels * 5 
   end 
-  print
+  print coins_used 
 end 
 
 least_coins(25)
