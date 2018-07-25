@@ -28,7 +28,7 @@ def least_coins(cents)
   print coins
 end 
 
-least_coins(20)
+least_coins(2)
   
 
 #Code your answer here!
