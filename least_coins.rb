@@ -37,7 +37,7 @@ def least_coins(cents)
   coins
 end 
 
-least_coins(6440000)
+least_coins()
   
 
 #Code your answer here!
