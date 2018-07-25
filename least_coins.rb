@@ -7,7 +7,7 @@ def least_coins(cents)
   elsif quarters != 0 
     coins [:quarters] = quarters
     cents = cents - quarters * 25 
-  end 
+  
   dimes = cents / 10 
   if dimes == 0 
     coins [:dimes] = 0 
